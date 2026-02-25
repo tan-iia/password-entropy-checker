@@ -1,0 +1,60 @@
+/* Password Entropy Checker */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  color: #222;
+}
+
+input {
+  padding: 12px;
+  font-size: 16px;
+  width: 260px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+#entropy {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+#strength {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+#crackTime {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+#commonWarning {
+  font-size: 16px;
+  color: #d9534f;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#checklist {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#checklist li {
+  color: #555;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+#checklist li.complete {
+  color: #28a745;
+  font-weight: bold;
+}
